@@ -10,20 +10,15 @@ SMTP_PORT = 587
 TOP_N     = 5
 
 RSS_FEEDS = [
-    # Mini PC e hardware
+    # Hardware e Mini PC
     ("Tom's Hardware",    "https://www.tomshardware.com/feeds/all"),
-    ("Tom's Hardware IT", "https://www.tomshw.it/rss_news.xml"),
     ("Phoronix",          "https://www.phoronix.com/rss.php"),
-    ("AnandTech",         "https://www.anandtech.com/rss/"),
     ("NotebookCheck",     "https://www.notebookcheck.net/News.8.0.html?utm_source=rss&utm_medium=rss"),
     # Community Mini PC
     ("r/MiniPCs",         "https://www.reddit.com/r/MiniPCs/.rss"),
-    ("r/linux_gaming",    "https://www.reddit.com/r/linux_gaming/.rss"),
     ("r/AMD",             "https://www.reddit.com/r/Amd/.rss"),
-    # Italiani
-    ("HWUpgrade",         "https://www.hwupgrade.it/rss/news.xml"),
-    ("Everyeye",          "https://www.everyeye.it/rss_news.xml"),
-    # Linux gaming
+    ("r/linux_gaming",    "https://www.reddit.com/r/linux_gaming/.rss"),
+    # Linux su Mini PC
     ("GamingOnLinux",     "https://www.gamingonlinux.com/article_rss.php"),
 ]
 
@@ -35,10 +30,9 @@ BOOST_KEYWORDS = [
     "ryzen", "amd apu", "rdna", "radeon", "780m", "890m", "880m",
     "ryzen ai", "strix point", "hawk point", "phoenix",
     "intel core ultra", "arc graphics", "xe graphics",
-    "snapdragon x",
     # Annunci e release
-    "announced", "released", "launch", "benchmark", "review",
-    "annunciato", "rilasciato", "prestazioni", "benchmark",
+    "announced", "released", "launch", "benchmark",
+    "annunciato", "rilasciato", "prestazioni",
     # Linux su Mini PC
     "linux", "steamos", "bazzite", "cachyos",
     # RAM e storage
@@ -46,14 +40,23 @@ BOOST_KEYWORDS = [
 ]
 
 PENALTY_KEYWORDS = [
+    # Elettrodomestici e accessori casa
+    "aspirapolvere", "lavapavimenti", "robot pulizia", "rowenta",
+    "lavatrice", "frigorifero", "televisore", "smart tv",
+    "microonde", "forno", "climatizzatore",
     # Desktop tower e server
     "desktop tower", "workstation", "server rack",
     "threadripper", "epyc", "xeon",
-    # Mobile non Mini PC
+    # Mobile
     "smartphone", "iphone", "android", "tablet",
     "laptop", "notebook",
+    # Gaming generico non Mini PC
+    "xbox game pass", "playstation", "nintendo",
+    "console gaming", "ps5", "xbox series",
     # Fuori tema
     "nft", "crypto", "blockchain", "metaverse",
-    "playstation", "xbox", "nintendo",
-    "dash cam", "smart tv", "smartwatch",
+    "dash cam", "smartwatch", "cuffie",
+    # Offerte generiche
+    "amazon offerta", "sconto amazon", "coupon",
+    "black friday", "prime day",
 ]
