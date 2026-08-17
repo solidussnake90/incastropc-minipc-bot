@@ -39,19 +39,14 @@ TELEGRAM_CHAT   = os.environ.get("TELEGRAM_CHAT", "")
 
 # ─── Feed RSS ─────────────────────────────────────────────
 RSS_FEEDS = [
-    ("GamingOnLinux",     "https://www.gamingonlinux.com/article_rss.php"),
-    ("Phoronix",          "https://www.phoronix.com/rss.php"),
-    ("Boiling Steam",     "https://boilingsteam.com/feed/"),
-    ("r/linux_gaming",    "https://www.reddit.com/r/linux_gaming/.rss"),
-    ("r/linux",           "https://www.reddit.com/r/linux/.rss"),
-    ("r/SteamDeck",       "https://www.reddit.com/r/SteamDeck/.rss"),
-    ("r/minipc",          "https://www.reddit.com/r/MiniPCs/.rss"),
-    ("Tom's Hardware IT", "https://www.tomshw.it/rss_news.xml"),
-    ("Everyeye",          "https://www.everyeye.it/rss_news.xml"),
-    ("Multiplayer.it",    "https://www.multiplayer.it/rss/news.xml"),
     ("Tom's Hardware",    "https://www.tomshardware.com/feeds/all"),
-    ("PC Gamer",          "https://www.pcgamer.com/rss/"),
-    ("Rock Paper Shotgun","https://www.rockpapershotgun.com/feed"),
+    ("Phoronix",          "https://www.phoronix.com/rss.php"),
+    ("NotebookCheck",     "https://www.notebookcheck.net/News.8.0.0.html"),
+    ("r/MiniPCs",         "https://www.reddit.com/r/MiniPCs/.rss"),
+    ("r/AMD",             "https://www.reddit.com/r/Amd/.rss"),
+    ("r/linux_gaming",    "https://www.reddit.com/r/linux_gaming/.rss"),
+    ("GamingOnLinux",     "https://www.gamingonlinux.com/article_rss.php"),
+    ("Tom's Hardware IT", "https://www.tomshw.it/rss_news.xml"),
 ]
 
 # ─── Keywords ─────────────────────────────────────────────
